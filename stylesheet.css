@@ -1,0 +1,14 @@
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 1.6em;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
